@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:03,380] Register - Step 1: Click Register link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:04,458] Register - Step 2: Input first name= Alpha
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:04,703] Register - Step 3: Input last name= Roob
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:04,941] Register - Step 4: Input email= monty.pacocha@hotmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:05,207] Register - Step 5: Input password and confirm password= x5dhabhq1hhlq
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:05,678] Register - Step 6: Click register button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:07,111] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-07-17 16:17:07,112] Driver instance name = chromedriver: chrome on windows (346318a4bfc1f0da19cd263b463f5c91)
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-17T09:16:43Z" name="NopCommerce" finished-at="2022-07-17T09:17:08Z" duration-ms="24755">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T09:16:43Z" name="Run on Chrome" finished-at="2022-07-17T09:17:08Z" duration-ms="24755">
+      <class name="com.nopcommerce.user.Level_21_ManageTestData1">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.user.Level_21_ManageTestData1@687b0ddc]" started-at="2022-07-17T09:16:43Z" name="initBeforeSuite" finished-at="2022-07-17T09:16:43Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_21_ManageTestData1@687b0ddc]" started-at="2022-07-17T09:16:43Z" name="beforeClass" finished-at="2022-07-17T09:17:03Z" duration-ms="19465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.Level_21_ManageTestData1@687b0ddc]" started-at="2022-07-17T09:17:03Z" name="TC_01_Register" finished-at="2022-07-17T09:17:06Z" duration-ms="3697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:03,380] Register - Step 1: Click Register link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:04,458] Register - Step 2: Input first name= Alpha
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:04,703] Register - Step 3: Input last name= Roob
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:04,941] Register - Step 4: Input email= monty.pacocha@hotmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:05,207] Register - Step 5: Input password and confirm password= x5dhabhq1hhlq
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:05,678] Register - Step 6: Click register button
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_21_ManageTestData1@687b0ddc]" started-at="2022-07-17T09:17:07Z" name="afterClass" finished-at="2022-07-17T09:17:08Z" duration-ms="1113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:07,111] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-07-17 16:17:07,112] Driver instance name = chromedriver: chrome on windows (346318a4bfc1f0da19cd263b463f5c91)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Level_21_ManageTestData1 -->
+    </test> <!-- Run on Chrome -->
+  </suite> <!-- NopCommerce -->
+</testng-results>
